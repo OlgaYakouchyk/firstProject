@@ -2,6 +2,9 @@
 // По клику на about, у вас внизу появляется контейнер с заголовком 
 const btnAbout = document.querySelector('.btnAbout')
 const posts = document.querySelector('.posts')
+const main_header = document.querySelector('.main_header')
+const header = document.querySelector('.header')
+
 
 btnAbout.addEventListener('click',function(){
     if(posts.style.display === 'block') {
