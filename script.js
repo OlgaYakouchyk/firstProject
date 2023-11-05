@@ -12,7 +12,7 @@ btnAbout.addEventListener('click',function(){
 })
 
 // извлечение постов JSONPlaceHolder
-// По клику на fetch подтягиваем данные из jsonplaceholder.typicode.com/posts ( тащим все посты)
+// По клику fetch подтягиваем данные из jsonplaceholder.typicode.com/posts ( тащим все посты)
 
 async function fetchPosts() {
     try {
